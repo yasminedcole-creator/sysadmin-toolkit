@@ -1,0 +1,75 @@
+# Asset Tracking – Branch Office Inventory
+
+**Enterprise Challenge Lab #1**
+
+---
+
+## Overview
+
+This project documents the asset tracking setup completed for a new branch office. The goal was to inventory all shipped equipment, establish a tracking process, and implement a tool to manage assets across the team.
+
+---
+
+## Assets Tracked
+
+| Category | Examples |
+|---|---|
+| Servers | VM Server |
+| Networking Equipment | Cisco 1941 Series Router |
+| Computing Peripherals | Wired Keyboard, Mouse |
+| Monitors | Dell P2418HZm |
+| Other Hardware | Switch, 479XF24 |
+
+---
+
+## Tool Used: Sortly
+
+We chose **Sortly** as our asset tracking platform for the following reasons:
+
+- **Centralized database** – all assets in one place, accessible by the whole team
+- **Visual tracking** – photos attached to each item for easy identification
+- **Serial number tracking** – each item logged with a unique identifier
+- **Status updates** – items can be marked as assigned, in storage, or under maintenance
+- **Team collaboration** – real-time updates so everyone stays on the same page
+- **Mobile-friendly** – usable from anywhere, not just a desktop
+
+---
+
+## Process
+
+**Start of shift:**
+- Check in all items
+- Confirm each asset is present and damage-free
+- Log status in Sortly
+
+**End of shift:**
+- Check out all items
+- Confirm assets are present and no damage occurred during the shift
+- Update records in Sortly
+
+**Responsibility:** The designated IT Admin is accountable for ensuring check-in/check-out is completed each shift. Any missing or damaged items are to be reported to the Office Manager immediately.
+
+---
+
+## Inventory Snapshot
+
+| Name | Quantity | Price | Total Value |
+|---|---|---|---|
+| 479XF24 | 8 | $949.99 | $7,599.92 |
+| Cisco 1941 Series Router | 1 | $1,000.00 | $1,000.00 |
+| Switch | 1 | $90.99 | $90.99 |
+| Wired Keyboard | 8 | $199.99 | $1,599.92 |
+| Mouse | 8 | $8.25 | $66.00 |
+| Dell P2418HZm | 8 | $236.99 | $1,895.92 |
+| VM Server | 1 | — | — |
+
+**Total Items:** 7 &nbsp;|&nbsp; **Total Quantity:** 35 units &nbsp;|&nbsp; **Total Value:** $12,252.75
+
+---
+<img width="1909" height="994" alt="image" src="https://github.com/user-attachments/assets/6d4ecc8c-c76e-4512-abbd-ab042b910fe4" />
+
+## Notes
+
+- VM Server pricing to be confirmed and updated
+- All assets tracked with photos in Sortly
+- Tracker to be updated whenever assets are added, removed, or change status
